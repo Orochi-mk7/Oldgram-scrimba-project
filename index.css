@@ -1,0 +1,101 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #C6C6C6;
+}
+body{
+    width: 375px;  
+    margin: 0 auto;
+    background: #EDEDED;
+}
+
+/* typography */
+
+h1, p {
+    margin: 0;
+}
+
+h1,
+h2,
+span {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+
+
+/* layout */
+
+header,.post-container {
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    padding-right: 15px;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.post-container {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    margin: 0 6px;
+}
+
+.post-info-img {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.post-info-container {
+    margin-left: 10px;
+}
+
+.like-comment-container {
+    padding-left: 10px;
+}
+
+/* images */
+
+.pfp-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.site-logo {
+    width: 127px;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.interaction-icon {
+    width: 25;
+}

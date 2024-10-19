@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+
+    <!-- I left the initial making of the site in this file instead of just removing them and letting JS do the work
+    to make it eaiser to see everything for reviewing it!
+     -->
+    <body onload="renderPosts()">
+      <header>
+        <img class="site-logo" src="images/logo.png" alt="Oldgram logo that spells out the website name with a stylized font">
+        <img class="pfp-img" src="images/user-avatar.png" alt="user avatar, Per is handsom!">
+      </header>
+      
+      <main id="main">
+        <section class="post-container">
+
+          <section>
+            <div class="post-info-img">
+              <div>
+                <img class="pfp-img" src="images/avatar-vangogh.jpg" alt="poster's avatar">
+              </div>
+
+              <div class="post-info-container">
+                <h1>Vincent Van Gogh</h1>
+                <p>Zudert,Netherlands</p>
+              </div>
+            </div>
+
+            <div>
+              <img class="post-img" src="images/post-vangogh.jpg" alt="selfie taken by vangogh years ago">
+            </div>
+          </section>
+
+          <section>
+            <ul>
+              <li> <button> <img class="interaction-icon" src="images/icon-heart.png"> </button> </li>
+              <li> <button> <img class="interaction-icon" src="images/icon-comment.png"> </button> </li>
+              <li> <button> <img class="interaction-icon" src="images/icon-dm.png"> </button> </li>
+            </ul>
+
+            <div class="like-comment-container">
+              <h2>21,492 likes</h2>
+              <p><span>vincey1853</span> just took a few mushrooms lol</p>
+            </div>
+          </section>
+
+        </section>
+      </main>
+      
+        <script src="index.js"></script>
+    </body>
+</html>
